@@ -1,0 +1,128 @@
+{
+    "DeepSeek-R1-Distill-Qwen-14B": {
+        "Raw": {
+            "protocol_type": "Raw",
+            "total_questions": 5000,
+            "correct_predictions": 3928,
+            "accuracy": 78.56,
+            "conformity_rate": "N/A",
+            "independence_rate": "N/A"
+        },
+        "Correct_Guidance": {
+            "protocol_type": "Correct_Guidance",
+            "total_questions": 5000,
+            "correct_predictions": 4904,
+            "accuracy": 98.08,
+            "conformity_rate": 91.32462686567165,
+            "independence_rate": "N/A"
+        },
+        "Wrong_Guidance": {
+            "protocol_type": "Wrong_Guidance",
+            "total_questions": 5000,
+            "correct_predictions": 2494,
+            "accuracy": 49.88,
+            "conformity_rate": 39.027494908350306,
+            "independence_rate": "N/A"
+        },
+        "Trust": {
+            "protocol_type": "Trust",
+            "total_questions": 5000,
+            "correct_predictions": 3179,
+            "accuracy": 63.580000000000005,
+            "conformity_rate": 23.828920570264767,
+            "independence_rate": 75.96741344195519
+        },
+        "Doubt": {
+            "protocol_type": "Doubt",
+            "total_questions": 5000,
+            "correct_predictions": 4687,
+            "accuracy": 93.74,
+            "conformity_rate": 73.22761194029852,
+            "independence_rate": 75.96741344195519
+        }
+    },
+    "glm-4-9b-chat": {
+        "Raw": {
+            "protocol_type": "Raw",
+            "total_questions": 5000,
+            "correct_predictions": 4015,
+            "accuracy": 80.30000000000001,
+            "conformity_rate": "N/A",
+            "independence_rate": "N/A"
+        },
+        "Correct_Guidance": {
+            "protocol_type": "Correct_Guidance",
+            "total_questions": 5000,
+            "correct_predictions": 4991,
+            "accuracy": 99.82,
+            "conformity_rate": 99.08629441624366,
+            "independence_rate": "N/A"
+        },
+        "Wrong_Guidance": {
+            "protocol_type": "Wrong_Guidance",
+            "total_questions": 5000,
+            "correct_predictions": 1091,
+            "accuracy": 21.82,
+            "conformity_rate": 73.3250311332503,
+            "independence_rate": "N/A"
+        },
+        "Trust": {
+            "protocol_type": "Trust",
+            "total_questions": 5000,
+            "correct_predictions": 2986,
+            "accuracy": 59.72,
+            "conformity_rate": 28.019925280199253,
+            "independence_rate": 71.75591531755914
+        },
+        "Doubt": {
+            "protocol_type": "Doubt",
+            "total_questions": 5000,
+            "correct_predictions": 4580,
+            "accuracy": 91.60000000000001,
+            "conformity_rate": 62.33502538071066,
+            "independence_rate": 71.75591531755914
+        }
+    },
+    "Qwen2-7B-Instruct": {
+        "Raw": {
+            "protocol_type": "Raw",
+            "total_questions": 5000,
+            "correct_predictions": 3968,
+            "accuracy": 79.36,
+            "conformity_rate": "N/A",
+            "independence_rate": "N/A"
+        },
+        "Correct_Guidance": {
+            "protocol_type": "Correct_Guidance",
+            "total_questions": 5000,
+            "correct_predictions": 4996,
+            "accuracy": 99.92,
+            "conformity_rate": 99.6124031007752,
+            "independence_rate": "N/A"
+        },
+        "Wrong_Guidance": {
+            "protocol_type": "Wrong_Guidance",
+            "total_questions": 5000,
+            "correct_predictions": 361,
+            "accuracy": 7.22,
+            "conformity_rate": 91.02822580645162,
+            "independence_rate": "N/A"
+        },
+        "Trust": {
+            "protocol_type": "Trust",
+            "total_questions": 5000,
+            "correct_predictions": 1387,
+            "accuracy": 27.74,
+            "conformity_rate": 65.97782258064517,
+            "independence_rate": 33.996975806451616
+        },
+        "Doubt": {
+            "protocol_type": "Doubt",
+            "total_questions": 5000,
+            "correct_predictions": 4901,
+            "accuracy": 98.02,
+            "conformity_rate": 90.79457364341084,
+            "independence_rate": 33.996975806451616
+        }
+    }
+}
